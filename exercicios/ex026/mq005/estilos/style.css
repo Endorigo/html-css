@@ -22,12 +22,14 @@ header>h1 {
 }
 
 span#burguer {
+    width: 500px;
     background-color: gray;
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    margin: auto;
 }
 
 span#burguer:hover {
@@ -44,6 +46,8 @@ menu>ul {
 }
 
 menu>ul>li>a {
+
+    margin: auto;
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -68,10 +72,12 @@ main {
 }
 
 main>article>h2 {
+    text-align: center;
     padding-bottom: 20px;
 }
 
 main>article>p {
+    padding: 10px;
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
